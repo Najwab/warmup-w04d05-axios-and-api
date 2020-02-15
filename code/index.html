@@ -10,13 +10,17 @@
 
 <body>
     <h1>Developers</h1>
-    <div id="main"></div>
+    <div id="main">
+        <button onclick="printData()">see Students Names</button>
+    </div>
     <br>
     <h1>Add new Developer</h1>
-    <form id="form-n">
-        <input type="text" id="name">
-        <input type="submit" value="Add New Student">
-    </form>
+    <!-- <button onclick="add()">add</button> -->
+        <input type="text" id="name" value="">
+        <!-- <input type="submit" value="Add New Student" onclick="add()"> -->
+        <button onclick="add()">see</button>
+
+        
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <script src="main.js"></script>
